@@ -28,7 +28,7 @@ ASTUBaseCharacter::ASTUBaseCharacter(const FObjectInitializer& ObjInit)
 
     HealthComponent = CreateDefaultSubobject<USTUHealthComponent>("HealthComponent");
 
-    HealthTextComponent = CreateDefaultSubobject<UTextRenderComponent>("HeathTextComponent");
+    HealthTextComponent = CreateDefaultSubobject<UTextRenderComponent>("HealthTextComponent");
     HealthTextComponent->SetupAttachment(GetRootComponent());
 }
 
